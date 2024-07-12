@@ -959,11 +959,13 @@
   <!-- typed.js -->
   <script src="assets/vendor/typed.js/typed.min.js"></script>
   <script type="text/javascript">
-    var typed = new Typed('.typing',{
-      strings: ["Pythonist", "Amateur Data Analyst", "Fast Learner"],
-      loop: true,
-      typeSpeed: 80,
-      backSpeed: 40
+    document.addEventListener('DOMContentLoaded', function() {
+      var typed = new Typed('.typing', {
+        strings: ["Pythonist", "Amateur Data Analyst", "Fast Learner"],
+        loop: true,
+        typeSpeed: 80,
+        backSpeed: 40
+      });
     });
   </script>
 
